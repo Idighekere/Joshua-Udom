@@ -21,10 +21,10 @@ const Home = () => {
     const aosType = "fade-up";
     const aosDuration = 1000;
     return (
-        <div className="bg-black text-white px-10 sm:px-16 lg:px-32 flex flex-col justify-center overflow-x-hidden">
+        <div className="bg-black text-white px-10 sm:px-16 lg:px-32 flex flex-col justify-center ">
 
             <Header />
-            <div >
+            <div className="overflow-x-hidden" >
                 <Hero aosType={aosType} aosDuration={aosDuration} />
                 <Works />
                 <About />
