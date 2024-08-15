@@ -32,7 +32,7 @@ const Contact = () => {
     return (
         <section id="contact-me" className='max-h-auto pt-20'>
             <h2 className='text-3xl font-[500] mb-4 text-uppercase mb-10 border-b-4 inline-block border-primary-500'>CONTACT ME</h2>
-            <p className='text-xl text-center'>Get in touch with me for full-time job opportunities, freelance, design advice, or simply say to hello 😃
+            <p className='text-xl text-center' data-aos="fade-left">Get in touch with me for full-time job opportunities, freelance, design advice, or simply say to hello 😃
                 .</p>
 
             <div className='grid grid-rowsx-4 grid-cols-3 md:grid-cols-4 gap-3 fjustify-center py-7' >

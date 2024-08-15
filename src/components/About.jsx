@@ -11,12 +11,13 @@ const About = () => {
 
             <div>
                 <h2 className='text-3xl font-[500] mb-10 border-b-4 inline-block border-primary-500'>ABOUT ME</h2>
-                <p className='text-xl text-justivfy' data-aos="fade-up-left">I'm Joshua, a graphic designer in Nigeria with 1+ year of experience. I specialize in creating functional designs that will help communicate a brand's service or product to it's target audience</p>
-                <p className="text-xl" data-aos="fade-down-right">Having a keen eye for aesthetics, I make sure that every Design I create is not only aesthetically pleasing but is also a functionaldesign.</p>
+                <div className="rounded-md shadow-md shadow-primary-400/40 p-5" data-aos="fade-up-left">
+                    <p className='text-xl text-justivfy' >I'm Joshua, a graphic designer in Nigeria with 1+ year of experience. I specialize in creating functional designs that will help communicate a brand's service or product to it's target audience</p>
+                    <p className="text-xl" >Having a keen eye for aesthetics, I make sure that every Design I create is not only aesthetically pleasing but is also a functionaldesign.</p></div>
                 <h3 className='text-2xl mt-4 mb-2'>🛠️Tools:</h3>
-                <p className=''>{Tools.map(t => <span className='border border-white/30 rounded-full mr-3  px-4 py-2 hover:bg-white/80 hover:text-black drop-shadow-lg cursor-pointer' key={t}>{t}</span>)}</p>
+                <div className="p-2"><p className=''>{Tools.map(t => <span className='border border-white/30 rounded-full mr-3  px-4 py-2 hover:bg-white/80 hover:text-black drop-shadow-lg cursor-pointer' key={t}>{t}</span>)}</p></div>
             </div>
-        </section>
+        </section >
     )
 }
 

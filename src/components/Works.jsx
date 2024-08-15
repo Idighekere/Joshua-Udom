@@ -61,8 +61,8 @@ const Works = () => {
         <section id="works" className='max-h-auto pt-24'>
             <h2 className='text-3xl font-[500] mb-4c text-uppercase mb-10 border-b-4 inline-block border-primary-500'>MY WORKS</h2>
 
-            <div className="flex /gap-3 justify-center overflow-x-auto whitespace-nowrap w-full ">
-                <div className="rounded-s-full rounded-e-full //bg-primary-400/30 whitespace-nowrap">{tabButtons.map(button => (<TabButton key={button.name} selectedCategory={selectedCategory} handleCategory={handleCategory} name={button.name} category={button.category} />))}
+            <div className="flex /gap-3 justify-center /overflow-x-auto whitespace-nowrap w-full ">
+                <div className="/rounded-s-full //rounded-e-full //bg-primary-400/30 whitespace-nowrap overflow-x-auto">{tabButtons.map(button => (<TabButton key={button.name} selectedCategory={selectedCategory} handleCategory={handleCategory} name={button.name} category={button.category} />))}
 
                 </div>
             </div>
