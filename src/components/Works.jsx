@@ -63,7 +63,7 @@ const Works = () => {
             <h2 className='text-3xl font-[500] mb-4c text-uppercase mb-10 border-b-4 inline-block border-primary-500'>MY WORKS</h2>
 
             <div className="flex /gap-3 justify-center overflow-x-hidden whitespace-nowrap w-full ">
-                <div className="/rounded-s-full //rounded-e-full //bg-primary-400/30 whitespace-nowrap overflow-x-hidden //hover:bg-primary-500">{tabButtons.map(button => (<TabButton key={button.name} selectedCategory={selectedCategory} handleCategory={handleCategory} name={button.name} category={button.category} />))}
+                <div className="/rounded-s-full //rounded-e-full //bg-primary-400/30 whitespace-nowrap overflow-x-auto //hover:bg-primary-500">{tabButtons.map(button => (<TabButton key={button.name} selectedCategory={selectedCategory} handleCategory={handleCategory} name={button.name} category={button.category} />))}
 
                 </div>
             </div>
