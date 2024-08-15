@@ -25,9 +25,9 @@ const Header = () => {
         setisOpen(i => (!i))
     }
     return (
-        <header className="sticky block top-5 md:top-3 z-50 ">
+        <header className="fsticky bflock topf-5 md:top-3 z-50 ">
             <div className='relative'></div>
-            <nav className='sticky top-5 flex gap-6 justify-between  px-3 py-3 md:px-6 md:py-4 my-3 items-center backdrop-blur-md  rounded-full bg-black/30 w-fuxll md:max-w-7xl border border-white/20'>
+            <nav className='sticky top-5 z-50 flex gap-6 justify-between  px-3 py-3 md:px-6 md:py-4 my-3 items-center backdrop-blur-md  rounded-full bg-black/30 w-fuxll md:max-w-7xl border border-white/20'>
                 <div className='flex gap-8 justify-between items-center '>
                     <div className='z-50'><a href="/" className="font-[600] whitespace-nowrap">Joshua Udom✨</a></div>
 
