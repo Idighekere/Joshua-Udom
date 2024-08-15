@@ -41,7 +41,7 @@ const Contact = () => {
 
             <div className='grid grid-rowss-4 grid-cols-1 md:grid-cols-3 gap-3 sm:grid-cols-2 lg:grid-cols-4 justify-center py-7' >
                 {
-                    socialLinks.map(link => (<span key={link.name} className=''><Link to={link.link} className={`flex gap-3 justify-around items-center border-2 border-white/90 rounded-full mr-3 w-auto px-2 py-2 md:px-4 md:py-1 hover:bg-white/80  drop-shadow-lg ${link.color} `} data-aos="zoom-out" target='_blank'>
+                    socialLinks.map(link => (<span key={link.name} className=''><Link to={link.link} className={`flex gap-3 justify-around items-center border-2 border-white/90 rounded-full mr-3 w-auto px-2 py-2 md:px-4 md:py-1 //hover:bg-white/80  drop-shadow-lg ${link.color} `} data-aos="zoom-out" target='_blank'>
                         <img src={link.icon} alt={link.name} width="10px" className='w-10' /> <p className='hiddenz md:block'>{link.name}</p></Link>
                     </span>))
                 }
