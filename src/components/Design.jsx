@@ -20,10 +20,11 @@ const Design = ({ design, index, open, handleOpen }) => {
                 <LazyLoadImage
                     src={design.src}
                     alt={design.name}
-                    className="max-w-auto max-h-auto  rounded-lg hover:drop-shadow-md cursor-pointer"
+                    className="max-w-auto max-h-auto h-auto rounded-lg hover:drop-shadow-md cursor-pointer"
                     effect="black-and-white"
                     loading="lazy"
-                    height={260}
+
+                    // height={260}
                     onClick={() => handleOpen(design.id)}
                 />
             </div>

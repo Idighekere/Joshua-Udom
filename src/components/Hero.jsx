@@ -32,7 +32,7 @@ const Hero = ({ aosType, aosDuration }) => {
                 </div>
                 <div className="p-10" data-aos="fade-right">
                     <LazyLoadImage
-                        src="/Joshua Udom.png"
+                        src="https://ik.imagekit.io/idighekere/Joshua%20Udom.png?q-80"
                         effect="opacity"
                         loading="lazy"
                         alt="joshua udom"
