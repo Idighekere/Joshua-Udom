@@ -21,12 +21,12 @@ const Hero = ({ aosType, aosDuration }) => {
                         <span className="font-[500] hover:bg-primary-500 px-1 cursor-pointer">visually communicate</span> products
                         and services with <span className="font-[500] hover:bg-primary-500 px-1 cursor-pointer">functional</span> flyer designs to help reach their <span className="font-[500] hover:bg-primary-500 px-1 cursor-pointer">target audience.</span>
                     </p>
-                    <button
+                    {/**   <button
                         type=""
                         className="bg-primary-400 hovver:bg-primary-500 duration-200 py-3 px-10 rounded-full mt-10 hover:bg-transparent  hover:border-primary-400 hover:border-2"
                     >
                         <Link to={"mailto:joshuaudom550@gmail.com"}>My Works</Link>
-                    </button>
+                    </button>**/}
                 </div>
                 <div className="px-16 py-8 " >
                     <div className="rounded-full  p-2" data-aos="fade-left"><LazyLoadImage
