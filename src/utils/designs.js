@@ -15,17 +15,18 @@ export const designLists = [
     {
         id: "3",
 
-        name: "LFC CDOF NOW MINISTERING",
-        src: "https://ik.imagekit.io/idighekere/Church%20Designs/LFC%20CDOF%20NOW%20MINISTERING_010237.jpg?q-80",
+        name: "LFC COVENANT DAY OF FRUITFULNESS",
+        src: "https://ik.imagekit.io/idighekere/Church%20Designs/LFC%20COVENANT%20DAY%20OF%20FRUITFULNESS_010618.jpg?q-80",
         category: "church"
     },
     {
         id: "4",
 
-        name: "LFC COVENANT DAY OF FRUITFULNESS",
-        src: "https://ik.imagekit.io/idighekere/Church%20Designs/LFC%20COVENANT%20DAY%20OF%20FRUITFULNESS_010618.jpg?q-80",
+        name: "LFC CDOF NOW MINISTERING",
+        src: "https://ik.imagekit.io/idighekere/Church%20Designs/LFC%20CDOF%20NOW%20MINISTERING_010237.jpg?q-80",
         category: "church"
     },
+
     {
         id: "5",
 
@@ -37,7 +38,7 @@ export const designLists = [
         id: "6",
 
         name: "LFCNEW DAWN SERVICE 11",
-        src: "https://ik.imagekit.io/idighekere/Church%20Designs/LFCNEW%20DAWN%20SERVICE%2011.jpg?q-50",
+        src: "https://ik.imagekit.io/idighekere/Church%20Designs/LFCNEW%20DAWN%20SERVICE%2011.jpg?q-0",
         category: "church"
     },
     //<<============================= FLYER DESIGNS =======================>>
@@ -101,7 +102,7 @@ export const designLists = [
         id: "15",
 
         name: "TRANSFORM YOUR BRAND",
-        src: "/designs/Flyer Designs/Transform your brand_113948-02.jpeg",
+        src: "https://ik.imagekit.io/idighekere/Flier%20Designs/Transform%20your%20brand_113948-02.jpeg?q-80",
         category: "flyer"
     },
     // {

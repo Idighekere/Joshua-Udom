@@ -21,7 +21,7 @@ const Home = () => {
     const aosType = "fade-up";
     const aosDuration = 1000;
     return (
-        <div className="bg-black text-white px-10 sm:px-16 lg:px-32 flex flex-col justify-center">
+        <div className="bg-black text-white px-10 sm:px-16 lg:px-32 flex flex-col justify-center overflow-x-hidden">
 
             <Header />
             <div >
